@@ -14,8 +14,7 @@ Make sure the following tools are installed on your system:
 From the project root directory, run:
 
 ```bash
-docker-compose build
-docker-compose up
+docker-compose up --build
 ```
 
 ### How to stop
