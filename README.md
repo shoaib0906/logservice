@@ -125,7 +125,7 @@ vite                    # Fast frontend build tool / dev server
 
 
 ## Home Page
-![Homepage Screenshot](./1. homepage.png)
+![Homepage Screenshot](https://github.com/shoaib0906/logservice/blob/main/3.%20Dashboard%20page.png)
 
 
 ![Create Page Screenshot](./2. create.png)
