@@ -65,10 +65,10 @@ This project was built as a clean and easily runnable full-stack logs dashboard,
 - CSV export is implemented server-side for reliability and scalability.
 
 # Library
-psycopg2-binary        # PostgreSQL database adapter
-django-filter           # Advanced filtering for DRF
-django-cors-headers    # Handle CORS for frontend-backend communication
-pytz                   # Timezone support
+psycopg2-binary -  PostgreSQL database adapter
+django-filter - Advanced filtering for DRF
+django-cors-headers - Handle CORS for frontend-backend communication
+pytz - Timezone support
 
 ## Frontend
 
@@ -80,16 +80,17 @@ React provides a modular, component-based UI.
 - Recharts is used for visualizing trends and distributions.
 
 # Library
-axios                   # Promise-based HTTP client for making API requests
-recharts                # Library for creating charts and data visualizations
-@mui/x-date-pickers     # Material UI date picker components
-dayjs                   # Lightweight library for date/time manipulation
-dev-suuport
-@vitejs/plugin-react    # Vite plugin for React support
-autoprefixer            # PostCSS plugin to add vendor prefixes automatically
-postcss                 # Tool for transforming CSS with JavaScript plugins
-tailwindcss             # Utility-first CSS framework for styling
-vite                    # Fast frontend build tool / dev server
+axios - Promise-based HTTP client for making API requests
+recharts - Library for creating charts and data visualizations
+@mui/x-date-pickers - Material UI date picker components
+dayjs - Lightweight library for date/time manipulation
+
+# dev-suuport
+vitejs/plugin-react - Vite plugin for React support
+autoprefixer - PostCSS plugin to add vendor prefixes automatically
+postcss - Tool for transforming CSS with JavaScript plugins
+tailwindcss - Utility-first CSS framework for styling
+vite - Fast frontend build tool / dev server
 
 
 ## Architecture & Tooling
