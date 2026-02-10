@@ -1,0 +1,154 @@
+{
+  "info": {
+    "_postman_id": "d3b7b0c3-6057-4f8c-b7e5-9196c209ec06",
+    "name": "Logs API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "25842222"
+  },
+  "item": [
+    {
+      "name": "List Logs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/logs/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "logs",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create Log",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"message\":\"Error\",\"severity\":\"ERROR\",\"source\":\"auth\"}"
+        },
+        "url": {
+          "raw": "http://localhost:8000/api/logs/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "logs",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Filter Logs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/logs/?severity=ERROR",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "logs",
+            ""
+          ],
+          "query": [
+            {
+              "key": "severity",
+              "value": "ERROR"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Aggregate",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/logs/aggregate/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "logs",
+            "aggregate",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Histogram",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/logs/histogram/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "logs",
+            "histogram",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Download CSV",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/logs/download/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "logs",
+            "download",
+            ""
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
