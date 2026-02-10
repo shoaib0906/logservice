@@ -44,7 +44,7 @@ To run tests inside the Docker container:
 
 1. Make sure the containers are running:
 
-````bash
+```bash
 docker-compose up -d
 ```
 
@@ -122,4 +122,19 @@ vite                    # Fast frontend build tool / dev server
 
 - Monitoring & Alerts
   Enable real-time alerts for critical logs via email or webhooks.
-````
+
+
+## Home Page
+![Homepage Screenshot](./1. homepage.png)
+
+
+![Create Page Screenshot](./2. create.png)
+
+
+![Dashboard Page Screenshot](./3. Dashboard page.png)
+
+
+![Trend Page Screenshot](./4. trend.png)
+
+
+![Histogram Page Screenshot](./5. histogram.png)
