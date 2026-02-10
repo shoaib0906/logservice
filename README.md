@@ -125,16 +125,16 @@ vite                    # Fast frontend build tool / dev server
 
 
 ## Home Page
-![Homepage Screenshot](https://github.com/shoaib0906/logservice/blob/main/3.%20Dashboard%20page.png)
+![Homepage Screenshot](https://github.com/shoaib0906/logservice/blob/main/1.%20homepage.png)
 
 
-![Create Page Screenshot](./2. create.png)
+![Create Page Screenshot](https://github.com/shoaib0906/logservice/blob/main/2.%20create.png)
 
 
-![Dashboard Page Screenshot](./3. Dashboard page.png)
+![Dashboard Page Screenshot](https://github.com/shoaib0906/logservice/blob/main/3.%20Dashboard%20page.png)
 
 
-![Trend Page Screenshot](./4. trend.png)
+![Trend Page Screenshot](https://github.com/shoaib0906/logservice/blob/main/4.%20trend.png)
 
 
-![Histogram Page Screenshot](./5. histogram.png)
+![Histogram Page Screenshot](https://github.com/shoaib0906/logservice/blob/main/5.%20histogram.png)
