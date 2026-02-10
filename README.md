@@ -46,11 +46,12 @@ To run tests inside the Docker container:
 
 ````bash
 docker-compose up -d
+```
 
 2. Run  specific test module:
 ```bash
 docker-compose exec backend python manage.py test tests.test_views
-
+```
 
 ### Overview
 
